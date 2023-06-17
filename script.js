@@ -24,11 +24,11 @@ class Cat extends Animal {
     console.log("purr");
   }
 }
-animal.makeSound();
-cat.makeSound(); // Output: The animal makes a sound.
-cat.purr();
-dog.makeSound(); // Output: The animal makes a sound.
-dog.bark();
+// animal.makeSound();
+// cat.makeSound(); // Output: The animal makes a sound.
+// cat.purr();
+// dog.makeSound(); // Output: The animal makes a sound.
+// dog.bark();
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
